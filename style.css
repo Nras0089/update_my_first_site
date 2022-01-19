@@ -1,0 +1,155 @@
+body{
+    background-image: url(images/fon3.jpg);
+    background-size: 4000px;
+    
+     font-family: 'Comfortaa', cursive;
+
+    }
+    
+H1{
+    color:#F34A4A;
+    font-size: 50px;
+ }
+ h2{
+     font-size: 30px;
+     color: #F34A4A;
+ }
+ P{
+     color: #F1D3BC;
+ }
+
+ a:visited {
+    color: #EF7D55;
+  }
+
+  .custom::before {
+    content: url('images/vk.png');
+    float: left;
+    margin-right: 5px;
+}
+
+.custom {
+    line-height: 30px; /* Как высота картинки */
+}
+
+.custom2::before {
+    content: url('images/gmail.png');
+    float: left;
+    margin-right: 5px;
+}
+
+.custom2 {
+    line-height: 30px; /* Как высота картинки */
+}
+
+
+ .avatar{
+    width: 300px;
+    border-radius: 15px;
+    
+
+ }
+ .info{
+
+     display: flex;
+ }
+
+ @media (max-width:700px){
+     .info{
+         text-align: center;
+         display:block;
+     }
+ }
+
+ .info-text{
+     margin-left: 40px;
+ }
+ .info-text h4{
+     margin-bottom: 10px;
+ }
+
+ .info p {
+    color: #92573e;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+ }
+ 
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+
+ .social{
+    opacity: 0.8;
+     background: #07575B;
+     padding: 5px 30px;
+
+     margin: 20px;
+
+
+ }
+ .social li{
+    margin-bottom: 15px;
+ }
+
+ .card{
+     color:#F1D3BC;
+ }
+
+ .table {
+    opacity: 0.8;
+    font-weight: bold;
+	width: 100%;
+	margin-bottom: 20px;
+	border: 5px solid #A43820;
+	border-top: 5px solid #A43820;
+	border-bottom: 3px solid #A43820;
+	border-collapse: collapse; 
+	outline: 3px solid #F34A4A;
+	font-size: 15px;
+	background: #A43820!important;
+}
+.table th {
+	font-weight: bold;
+	padding: 7px;
+	background: #F34A4A;
+	border: none;
+	text-align: left;
+	font-size: 15px;
+	border-top: 3px solid #A43820;
+	border-bottom: 3px solid #613826;
+}
+.table td {
+	padding: 7px;
+	border: none;
+	border-top: 3px solid #A43820;
+	border-bottom: 3px solid #A43820;
+	font-size: 15px;
+}
+.table tbody tr:nth-child(even){
+	background: #A43820!important;
+}
+
+.tabText{
+    color:#F1D3BC;
+}
+
+.blink {
+    animation: blink 1.7s infinite; /* Параметры анимации */
+   }
+   @keyframes blink {
+    from { opacity: 1; /* Непрозрачный текст */ }
+    to { opacity: 0; /* Прозрачный текст */ }
+   }
+
+
+
+
+
+
+
+ 
